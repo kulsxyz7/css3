@@ -1,0 +1,91 @@
+CSS3 dibagi menjadi beberapa modul, dan tiap-tiap modulnya menambahkan kemampuan / fitur yang ada disebelumnya
+Kenapa menggunakan CSS3? 
+- membuat website menjadi lebih fleksibel
+- membuat mock-up dengan cepat tanpa bantuan bahasa scripting
+- mengurangi penggunaan gambar = kecepatan load halaman
+- penggunaan selector untuk menghindari penggunaan markup yang boros
+
+property css3 yang sering digunakan
+- border-radius
+- opacity
+- RGBa & HSLa
+- box-sizing
+- box-shadow
+- text-shadow
+- CSS gradient
+- background
+- pseudo-element
+- selector lanjut
+- webfont
+- media queries
+- transform (2D & 3D)
+- CSS transition
+- CSS animation
+- CSS Filter
+- FlexBox
+- CSS columns
+
+
+CSS3 border-radius
+border-top-right-radius: ;
+border-bottom-right-radius: ;
+border-bottom-left-radius: ;
+border-top-left-radius: ;
+border-radius: ataskiri atas kanan bawah kanan bawah kiri ;
+
+CSS3 Opacity
+opacity: valuenya 0-1 //atau 0-100%
+opacity: .5 / 0.5;
+
+
+CSS box-shadow
+valuenya
+box-shadow: <x-offset> <y-offset> <blur> <color>
+x-offset = untuk mengatur jarak bayangan pada sumbu horizontal
+y-offset = jarak dari bayangan terhadap elemen secara vertikal
+blue = sama seperti size di photoshop
+color = warna
+<spread> optional value
+spread = atau size dari bayangan
+<inset> optional value
+valuenya
+box-shadow: <inset> <x-offset> <y-offset> <blur> <spread> <color>;
+inset = membuat bayangan di dalam kotaknya
+box-shadow multiple shadow
+
+text-shadow
+valuenya
+<x-offset> <y-offset> <blur> <color>
+
+gradients = teknik untuk memberikan warna gradasi pada elemen yang kita punya
+ada 2 tipe : 
+linear-gradient = memberikan gradasi warna secara garis lurus
+radial-gradient = sedangkan radial memberi warna secara melingkar
+
+linear-gradient bukan property css3, melainkan value untuk background-image
+syntax nya 
+background-image: linear-gradient(<warna awal>, <warna akhir>);
+
+syntax lengkap nya 
+background: linear-gradient(<sudut> | <arah>, <warna awal>, <warna akhir>);
+value arah
+- to bottom
+- to top
+- to left
+- to right
+- to left top
+- to left bottom
+- to right top
+- to right bottom
+
+syntax color stop
+background-image: linear-gradient(sudut/arah, warna awal isi persen nya, warna akhir isi persen nya);
+
+background-image: linear-gradient(to right, red 63%, green 80%);
+ 
+
+Radial Gradient 
+syntax nya 
+background-image: radial-gradient(<warna-awal>, <warna-akhir>);
+syntax lengkap nya 
+background-image: radial-gradient(<tipe> <jangkauan> at <posisi-y> <posisi-x>, <warna-1>, <warna-2>,....<warna-n> );
