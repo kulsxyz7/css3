@@ -128,3 +128,46 @@ layanan font
 
 vendor prefix adalah syntax khusus yang harus ditambahkan untuk beberapa property CSS3
 
+vendor prefixes :
+-webkit-<properti-css3>
+-moz-<properti-css3>
+-ms-<properti-css3>
+-o-<properti-css3>
+
+kenapa kita harus menggunakan vendor prefix?
+karena tidak semua browser support css3! 
+-webkit- untuk (chrome,safari,opera versi terbaru)
+-moz- untuk (firefox)
+-ms- untuk (internet explorer)
+-o- untuk (opera versi terdahulu)
+
+syntax nya :
+-webkit-'namapropertinya';
+
+jika ingin nge check browser sudah support atau belumnya di 
+shouldiprefix.com
+caniuse.com
+http://pleeease.io/play/
+
+CSS3 Filter
+properti css3 yang digunakan untuk memberikan efek visual pada gambar, background atau border.
+
+syntax nya 
+filter: <tipe-filter>;
+
+gunakan vendor prefixes jika ingin jalan di semua web browser
+
+CSS3 transform
+properti transform memungkinkan kita dapat memanipulasi format visual dari elemen HTML
+transformasi ada 2
+-2D
+-3D
+
+syntaxnya :
+transform: <funsi>;
+
+fungsi transformasi :
+- scale = memperbesar/memperkecil
+- rotate = memutar
+- skew = membuat condong / miring
+- translate = mengubah posisi
