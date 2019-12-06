@@ -89,3 +89,42 @@ syntax nya
 background-image: radial-gradient(<warna-awal>, <warna-akhir>);
 syntax lengkap nya 
 background-image: radial-gradient(<tipe> <jangkauan> at <posisi-y> <posisi-x>, <warna-1>, <warna-2>,....<warna-n> );
+tipe didalam radial gradient ada 2
+- ellipse 
+- circle
+
+jangkauan adalah jarak dari pusat gradient ke sisi terluar-nya
+jangkauan ada 4 value 
+- closest-corner = jarak dari pusat gradient ke suduk terdekat elemen
+- closest-side = jarak dari pusat gradient ke sisi terdekat elemn
+- farthest-corner = jarak dari pusat gradient ke sudut terjauh elemen
+- farthest-side = jarak dari pusat gradient ke sisi terjauh elemen
+
+syntax nya :
+background-image: radial-gradient(circle closest-side, red, blue);
+
+posisi 
+- posisi-y = top center bottom px
+- posisi-x = left center right px
+
+CSS font face
+syntax lengkap nya 
+@font-face {
+font-family: 'namaFontBaru';
+src: url('lokasi/file/fontBaru.eot');
+src: url('lokasi/file/fontBaru.eot?#iefix') format('embedded-opentype'),
+url('lokasi/file/fontBaru.woff2') format ('woff2'),
+url('lokasi/file/fontBaru.woff') format ('woff'),
+url('lokasi/file/fontBaru.ttf') format('truetype'),
+url('lokasi/file/fontBaru.svg#svgFontName') format ('svg);}
+
+layanan font 
+- fonts.google.com
+- fontsquirell.com
+- fontspring.com
+- webtype.com
+- typotheque.com
+- dll
+
+vendor prefix adalah syntax khusus yang harus ditambahkan untuk beberapa property CSS3
+
