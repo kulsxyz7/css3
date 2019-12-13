@@ -171,3 +171,5 @@ fungsi transformasi :
 - rotate = memutar
 - skew = membuat condong / miring
 - translate = mengubah posisi
+
+ 
