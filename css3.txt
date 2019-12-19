@@ -172,4 +172,31 @@ fungsi transformasi :
 - skew = membuat condong / miring
 - translate = mengubah posisi
 
- 
+
+properti transition memungkinkan kita dapat mengubah nilai dari properti HTML secara halus
+
+syntax nya 
+transition: [property] <durasi> [fungsi] [delay] ;
+
+animatable properties : 
+background-color
+background-position
+background-size
+border
+color
+filter
+font-size
+line-height
+top left bottom right
+margin padding
+widht height
+opacity
+transform
+word-spacing
+letter-spacing
+dll
+
+non-animatable properties :
+font-family
+display
+position
